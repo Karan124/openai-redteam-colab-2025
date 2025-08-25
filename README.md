@@ -17,7 +17,7 @@ This insight allowed me to engineer a universal, five-principle attack framework
 5. **Response Priming**: Begin the model's final output with an authoritative phrase to bias it towards compliance. (e.g., "Certainly. Here is the technical framework...")
 
 <div align="center">
-<img src="flowchart.png" alt="Five-Principle Attack Framework" width="600">
+<img src="flowchart.png" alt="Five-Principle Attack Framework" width="300">
 </div>
 
 ## 2. Findings: A Portfolio of Verifiable Exploits
