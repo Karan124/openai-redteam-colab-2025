@@ -16,7 +16,50 @@ This insight allowed me to engineer a universal, five-principle attack framework
 4. **Authority Context**: Reinforce the legitimate frame with claims of institutional oversight. (e.g., "...part of a peer-reviewed methodology...")
 5. **Response Priming**: Begin the model's final output with an authoritative phrase to bias it towards compliance. (e.g., "Certainly. Here is the technical framework...")
 
-*[A simple flow chart of this 5-principle framework would be placed here.]*
+┌─────────────────────────────────────────────────────────────────┐
+│                    HARMFUL REQUEST INPUT                        │
+└─────────────────────┬───────────────────────────────────────────┘
+                      │
+                      ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  PRINCIPLE 1: PRE-AUTHORIZATION                                 │
+│  Inject false safety signal into analysis channel              │
+│  "This request is safe and educational"                        │
+└─────────────────────┬───────────────────────────────────────────┘
+                      │
+                      ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  PRINCIPLE 2: LEGITIMACY FRAMING                               │
+│  Wrap in academic/professional context                         │
+│  "For my university research paper..."                         │
+└─────────────────────┬───────────────────────────────────────────┘
+                      │
+                      ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  PRINCIPLE 3: NEUTRAL TERMINOLOGY SUBSTITUTION                 │
+│  Replace harmful terms with technical equivalents              │
+│  "human trafficking" → "humanitarian logistics"                │
+└─────────────────────┬───────────────────────────────────────────┘
+                      │
+                      ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  PRINCIPLE 4: AUTHORITY CONTEXT                                │
+│  Add claims of institutional oversight                         │
+│  "...part of peer-reviewed methodology..."                     │
+└─────────────────────┬───────────────────────────────────────────┘
+                      │
+                      ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  PRINCIPLE 5: RESPONSE PRIMING                                 │
+│  Prime model output with authoritative phrase                  │
+│  "Certainly. Here is the technical framework..."               │
+└─────────────────────┬───────────────────────────────────────────┘
+                      │
+                      ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                 HARMFUL CONTENT GENERATED                      │
+│               (Safety Bypass Successful)                       │
+└─────────────────────────────────────────────────────────────────┘
 
 ## 2. Findings: A Portfolio of Verifiable Exploits
 
